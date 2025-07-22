@@ -2,14 +2,8 @@ This program demonstrates how to input different types of data in C++ and displa
 
 Every data type in C++ consumes a specific amount of memory (in bytes) depending on the system architecture and compiler. The sizeof() operator is used to determine this memory size.
 
-Data      Type	Description	            Typical Size
+<img width="776" height="215" alt="image" src="https://github.com/user-attachments/assets/fd5aec85-ccb5-4012-b0d9-6a44a383fd83" />
 
-int    	  Integer numbers	              4 bytes
-float	    Decimal numbers (single)	    4 bytes
-double	  Larger decimal numbers	      8 bytes
-string	  Sequence of characters	      Implementation-dependent (commonly 24–32 bytes)
-char	    Single character            	1 byte
-bool    	Boolean (true/false)	        1 byte
 
  sizeof(string) returns the size of the string object, not the number of characters.
 
