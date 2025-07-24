@@ -1,3 +1,5 @@
+Use of different Datatypes 
+
 This program demonstrates how to input different types of data in C++ and displays both the value entered and the memory size (in bytes) occupied by each data type.
 
 Every data type in C++ consumes a specific amount of memory (in bytes) depending on the system architecture and compiler. The sizeof() operator is used to determine this memory size.
