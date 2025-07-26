@@ -1,63 +1,71 @@
 // Name: Barkha Kumari
 // PRN: 24070123029
-//Batch: EnTc A1
+// Batch: EnTc A1
 
 #include <iostream>
 #include <string> 
 using namespace std;
 
-int main(){
+int main() {
     int a;
-    cout<<"Enter any Integer";
-cin>>a;
-cout<<"Integer = "<<a <<" and its size is: "<<sizeof(a)<<" bytes"<<endl;
+    cout << "Enter any Integer: ";
+    cin >> a;
+    cout << "Integer = " << a << " and its size is: " << sizeof(a) << " bytes" << endl;
 
+    cout<<endl;
 
-float b;
-cout<<"Enter a Decimal";
-cin>>b;
-cout<<"Decimal= "<<b<<" and its size is: "<<sizeof(b)<<" bytes"<<endl;
+    float b;
+    cout << "Enter a Decimal: ";
+    cin >> b;
+    cout << "Decimal = " << b << " and its size is: " << sizeof(b) << " bytes" << endl;
 
+    cout<<endl;
 
-double c;
-cout<<"Enter a bigger decimal";
-cin>>c;
-cout<<"Double = "<<c<<" and its size is "<<sizeof(c)<<" bytes "<<endl;
+    double c;
+    cout << "Enter a Bigger Decimal: ";
+    cin >> c;
+    cout << "Double = " << c << " and its size is: " << sizeof(c) << " bytes" << endl;
 
+    cout<<endl;
 
-string d;
-cout<<"Enter a word";
-cin>>d;
-cout<<"The string is : "<<d<< " and its size is: "<<sizeof(d)<<" bytes"<<endl;
+    string d;
+    cout << "Enter a Word: ";
+    cin >> d;
+    cout << "The string is: " << d << " and its size (object size) is: " << sizeof(d) << " bytes" << endl;
 
-char e;
-cout<<"Enter a character";
-cin>>e;
-cout<<"The character is: "<< e<<" and its size is: "<<sizeof(e)<<" bytes"<<endl;
+    cout<<endl;
 
-bool f;
-cout<<"Enter true or false";
-cin>>f;
-cout<<"U entered "<<f<<" and its size is :"<<sizeof(f)<<" bytes"<<endl;
+    char e;
+    cout << "Enter a Character: ";
+    cin >> e;
+    cout << "The character is: " << e << " and its size is: " << sizeof(e) << " bytes" << endl;
 
-return 0;
+    cout<<endl;
 
+    bool f;
+    cout << "Enter true (1) or false (0): ";
+    cin >> f;
+    cout << "You entered " << f << " and its size is: " << sizeof(f) << " bytes" << endl;
 
+    return 0;
 }
 
-/** 
- OUTPUT
- 
-Enter any Integer 85
-Integer = 85 and its size is: 4 bytes
-Enter a Decimal 78.69
-Decimal= 78.69 and its size is: 4 bytes
-Enter a bigger decimal 10002.89963
-Double = 10002.9 and its size is 8 bytes 
-Enter a word Hello
-The string is : Hello and its size is: 32 bytes
-Enter a character B
-The character is: B and its size is: 1 bytes
-Enter true or false False
-U entered 0 and its size is :1 bytes
-**/
+/* OUTPUT
+Enter any Integer: 5
+Integer = 5 and its size is: 4 bytes
+
+Enter a Decimal: 5
+Decimal = 5 and its size is: 4 bytes
+
+Enter a Bigger Decimal: 8.220
+Double = 8.22 and its size is: 8 bytes
+
+Enter a Word: Hello
+The string is: Hello and its size (object size) is: 32 bytes
+
+Enter a Character: A
+The character is: A and its size is: 1 bytes
+
+Enter true (1) or false (0): True
+You entered 0 and its size is: 1 bytes
+*/
