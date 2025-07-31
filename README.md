@@ -1,90 +1,81 @@
 # Use of Different Data Types in C++
 
-## Program Overview
+## Objective
 
-This program demonstrates how to input different types of data in C++ and displays both the value entered and the memory size (in bytes) occupied by each data type.
-
-Each data type in C++ consumes a specific amount of memory depending on the system architecture and compiler. The `sizeof()` operator is used to determine this memory size.
-
-Note:  
-`sizeof(string)` returns the size of the string object, not the number of characters entered.
+To write a C++ program that demonstrates input, output, and memory size of basic data types.
 
 ---
 
-## Working
+## Apparatus
 
-The program accepts input for the following data types:
-
-- Integer  
-- Float  
-- Double  
-- String  
-- Character  
-- Boolean  
-
-It then prints:
-
-- The value entered by the user  
-- The memory size using the `sizeof()` operator
-  ![Datatypes Chart](https://github.com/user-attachments/assets/fd5aec85-ccb5-4012-b0d9-6a44a383fd83)
+- Visual Studio Code (VS Code)  
+- Any Online C++ Compiler (e.g., Replit, OnlineGDB, Programiz)
 
 ---
 
-## Sample Output
+## Theory
 
-#### Sample Output 1
-Enter any Integer: 5
+Each variable in C++ has a **data type** that determines the type of value it can hold and the memory it occupies. C++ provides several built-in types including:
 
-Integer = 5 and its size is: 4 bytes
+- **int**: Integer values
+- **float**: Decimal values with single precision
+- **double**: Decimal values with double precision
+- **char**: Single character
+- **bool**: Boolean values (true or false)
+- **string**: Sequence of characters (from the Standard Library)
 
-#### Sample Output 2
-Enter a Decimal: 5
+Memory for each data type is allocated differently, and we can determine this using the `sizeof()` operator.
 
-Decimal = 5 and its size is: 4 bytes
-
-#### Sample Output 3
-Enter a Bigger Decimal: 8.220
-
-Double = 8.22 and its size is: 8 bytes
-
-#### Sample Output 4
-Enter a Word: Hello
-
-The string is: Hello and its size (object size) is: 32 bytes
-
-### Sample Output 5
-Enter a Character: A
-
-The character is: A and its size is: 1 bytes
-
-#### Sample Output 6
-Enter true (1) or false (0): 1
-
-You entered 1 and its size is: 1 bytes
-
-Note:  
-If you enter `true` or `false` as text, C++ will interpret them as `0` because it doesn't accept text input directly for `bool`. Use `1` for `true` and `0` for `false`.
+> Note: `sizeof(string)` gives size of the string object, not the number of characters entered.
 
 ---
 
-## Key Concepts Demonstrated
+## Key Concepts Used
 
-1. Data Types – Understanding of built-in types like `int`, `float`, `double`, `string`, `char`, and `bool`.
-2. User Input – Using `cin` to get input from users for different types.
-3. Memory Size – Using the `sizeof()` operator to display how much memory each data type occupies.
-4. System Behavior – Shows how data size can vary based on the type and system.
+- Data Types: `int`, `float`, `double`, `char`, `bool`, `string`
+- Input with `cin` and Output with `cout`
+- Memory size detection using `sizeof()`
+
+---
+
+## Algorithms
+
+### 1. Integer Input and Size
+1. Declare an integer variable.
+2. Use `cin` to take input.
+3. Display value and `sizeof(int)`.
+
+### 2. Float Input and Size
+1. Declare a float variable.
+2. Use `cin` to take input.
+3. Display value and `sizeof(float)`.
+
+### 3. Double Input and Size
+1. Declare a double variable.
+2. Use `cin` to take input.
+3. Display value and `sizeof(double)`.
+
+### 4. String Input and Size
+1. Declare a `string` variable.
+2. Use `cin` to take input.
+3. Display value and `sizeof(string)`.
+
+### 5. Character Input and Size
+1. Declare a `char` variable.
+2. Use `cin` to take input.
+3. Display value and `sizeof(char)`.
+
+### 6. Boolean Input and Size
+1. Declare a `bool` variable.
+2. Use `cin` to take input (use 1 for true, 0 for false).
+3. Display value and `sizeof(bool)`.
 
 ---
 
 ## Learning Outcomes
 
-- Learn how to declare and input different basic data types in C++  
-- Understand how to measure memory usage of variables using `sizeof()`  
-- Recognize how different types behave during input/output  
-- Strengthen your foundation in C++ type systems and memory management
-
----
-
-
-
+- Learned how to declare and input basic data types in C++  
+- Understood how to check memory usage with `sizeof()`  
+- Gained familiarity with how C++ handles different types  
+- Strengthened knowledge of fundamental programming concepts
 
